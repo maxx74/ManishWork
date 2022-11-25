@@ -1,0 +1,236 @@
+
+
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+/*header start */
+
+.container2 {
+  height: 12vh;
+  background-color: #05e8ba;
+  background-image: linear-gradient(372deg,#05e8ba 31%,#087ee1 125%);
+  padding: 38px 54px 0px;
+  text-align: center;
+  overflow: hidden;
+  line-height: 12px;
+  box-shadow: 0 -2px 4px 2px;
+  border-bottom: 2px solid;
+}
+
+/* header end */
+
+
+
+/* job alert heading container */
+ 
+.althead{
+
+    
+    margin: 18px 74px 23px;
+    text-align: center;
+ }
+ img{
+   width:50px;
+  height:50px;
+  align-items: flex-end;
+}
+
+
+/* job vacancies heading */
+
+   .jobhead{
+       margin: 50px 0px 50px;
+       text-align: center;
+       
+   }
+
+   
+  
+
+
+
+   /* table  */
+
+   .container{
+    
+    height:100%;
+   margin:70px 0px 100px;
+   display: flex;
+   font-family: sans-serif; 
+   
+   flex-wrap: nowrap;
+   align-content: flex-start;
+   flex-direction: row;
+   justify-content: space-evenly;
+ }
+
+  table{
+    max-width:  510px;
+  }
+
+ table,tbody,ol{ 
+   padding: 1px 0 1px;
+   font-size: 14px;
+   color:blue;
+   font-weight: bold;
+   list-style:none;
+   line-height:19px;
+   overflow-y:scroll ;
+   height:529px;
+   max-width: 500px;
+   margin-right: 4px;
+   margin-left: 4px;
+   text-align:left;
+   
+ }
+
+
+table, tr,th{
+ background-color:black;
+  color: #fff;
+  text-align: center;
+  position: sticky;
+  padding:0px;
+ 
+
+
+}
+tr th:nth-child(1){
+width: 493px;
+text-align: center;
+background: linear-gradient(to right, #232323, #515353); 
+padding: 9px;
+color: white;
+font-size: 18px;
+}
+tr td:nth-child(1){
+  background-color: #e6fff9;
+  color: black;
+  box-shadow: 0px 2px 8px 0px;
+  
+}
+
+
+
+
+   
+
+
+
+ 
+  
+
+  /*footer start*/
+
+  footer
+  {
+    background-color: #333333;
+    width:100%;
+    display:block;
+    overflow:hidden;
+    box-shadow: 0 -2px 4px 2px;
+    border-bottom: 2px solid ;
+  }
+  
+  
+  /* Footer 3 column */
+  .footer
+  {
+    display:block;
+    margin:0 auto;
+    padding:30px 0 0;
+    list-style:none;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden
+  }
+  .footer .widget-content
+  {
+    display:block;
+    text-align:center;
+    margin:0 auto 
+    !important;
+    padding:0 0 30px!important;
+    list-style:none;max-width:728px
+  }
+  .footer h2,.footer h3
+  {
+    margin:10px auto 15px;
+    padding:0;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:15px;
+    background-color: #333333;
+    display:block;
+    text-align:center;
+    position:relative;
+  }
+ 
+  
+  /* Credit footer */
+  
+  .footmenu
+  {
+    font-size:17px;
+    
+    margin:0 auto;
+    display:block;
+  }
+  .footmenu ul
+  {
+    display:block;
+    margin:30px;
+    padding:0px;
+    text-align:center;
+  }
+  .footmenu ul li
+  {
+    display:inline-block;
+    padding:10px 14px 10px 14px;
+  }
+  .footmenu a
+  {
+    color:#ffffff;
+  }
+  .footmenu a:hover
+  {
+    color:#05c4ca;
+  }
+  .credit-wrapper
+  {
+    
+    background-color: #05e8ba;
+    background-image: linear-gradient(372deg,#05e8ba 31%,#087ee1 125%);
+  
+    margin:0 auto;
+    padding:15px 0;color:#292828;
+    display:block;
+    width:100%;
+    text-align:center;
+    list-style:none !important
+  }
+  .credit-wrapper a
+  {
+    color:#ffffff;
+  }
+  .credit-wrapper a:hover
+  {
+    color:#020505;
+  }
+  .fa {
+      display: inline-block;
+      font: normal normal normal 14px/1;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    text-decoration: none; 
+   }
+  /*footer end */
